@@ -52,6 +52,7 @@ mod Account {
   use rules_utils::utils::traits::BoolIntoU8;
   use rules_utils::introspection::src5::SRC5;
   use rules_utils::introspection::interface::{ ISRC5, ISRC5Camel };
+  use starknet::{ SyscallResultTrait, SyscallResultTraitImpl};
 
   // locals
   use rules_account::account::interface;
